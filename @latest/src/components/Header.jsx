@@ -1,6 +1,6 @@
 import React from "react";
 import mobile from "../assets/mobie-header.svg";
-import phone from '../assets/mo-phone.svg'
+import phone from "../assets/mo-phone.svg";
 
 const Header = () => {
   return (
@@ -35,10 +35,15 @@ const Header = () => {
         </p>
       </div>
 
-      <div className=" relative items-center"><img src={phone} alt="" /></div>
-      <div className=" h-80 bg-slate-600 absolute">
-        <h2>State of the Art Infrastructure</h2>
-            <p></p>
+      <div className="">
+        <div className=" items-center relative z-10 ">
+          <img src={phone} alt="" />
+        </div>
+        <div className=" h-96 w-full bg-slate-600 absolute -mt-52 rounded-tr-[5rem] ">
+          <h2 className="text-3xl text-white pt-3 mt-48 text-center">State of the Art Infrastructure</h2>
+          <p className="text-xl text-neutral-200 text-center mt-11">  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+                This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        </div>
       </div>
     </div>
   );
