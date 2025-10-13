@@ -3,7 +3,7 @@ import logo from '../assets/logo.svg'
 import harm from '../assets/icon-burger.svg'
 const Nav = () => {
   return (
-    <div className='h-96 bg-red-400 w-[100vw] rounded-bl-[3rem]'>
+    <div className='h-[27rem] bg-red-400 w-[100vw] rounded-bl-[3rem]'>
         <nav className='flex justify-between p-3'>
             <div><img src={logo} alt="" /></div>
             <div><img src={harm} alt="" /></div>
