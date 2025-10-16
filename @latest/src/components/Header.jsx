@@ -43,7 +43,7 @@ const Header = () => {
       </div>
       
 
-        <div className=" md:flex md:justify-between md:pl-20 md:pr-14 h-[35rem] md:h-[25rem] mt-44 w-full bg-slate-600 border-2   rounded-tr-[5rem] rounded-bl-[5rem] ">
+        <div className=" md:flex md:justify-between md:pl-20 md:pr-14 h-[40rem] md:h-[25rem] mt-44 w-full bg-slate-600 border-2   rounded-tr-[5rem] rounded-bl-[5rem] ">
         <div className=" items-center -mt-44 md:-mt-14 ">
           <img src={phone} alt="" />
         </div>
@@ -51,7 +51,7 @@ const Header = () => {
           <h2 className="text-3xl text-white pt-3 text-center">
             State of the Art Infrastructure
           </h2>
-          <p className="text-xl text-neutral-200 text-justify p-2 ">
+          <p className="text-xl text-neutral-200 text-justify p-2 md:p-8 ">
             With reliability and speed in mind, worldwide data centers provide
             the backbone for ultra-fast connectivity. This ensures your site
             will load instantly, no matter where your readers are, keeping your
