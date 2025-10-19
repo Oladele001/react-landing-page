@@ -14,7 +14,7 @@ const Nav = () => {
       <nav className="flex justify-between p-3">
         <div className="  md:flex gap-16">
           <div >
-            <img src={logo} alt="" className=" absolute z-[9999] " />
+            <img src={logo} alt="" className=" " />
           </div>
           <div className="w-64 h-8 hidden md:flex gap-3">
             <p className="flex">
