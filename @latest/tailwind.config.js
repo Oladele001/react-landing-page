@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'figtree': ['Figtree', 'sans-serif'],
+        'hanken-grotesk': ['Hanken Grotesk', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'],
+        'overpass': ['Overpass', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+        'ubuntu': ['Ubuntu', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

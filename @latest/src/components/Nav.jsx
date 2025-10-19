@@ -13,8 +13,8 @@ const Nav = () => {
     <div className="h-[27rem] bg-red-400 p-8 w-[100vw] md:pl-20 md:pr-20 md:p-8 rounded-bl-[3rem]">
       <nav className="flex justify-between p-3">
         <div className="  md:flex gap-16">
-          <div>
-            <img src={logo} alt="" />{" "}
+          <div >
+            <img src={logo} alt="" className=" absolute z-[9999] " />
           </div>
           <div className="w-64 h-8 hidden md:flex gap-3">
             <p className="flex">
@@ -43,14 +43,14 @@ const Nav = () => {
         )}
         {isOpen && (
           <div onClick={toggleMenu}>
-            <div className="md:hidden cursor-pointer">
+            <div className="md:hidden cursor-pointer absolute z-[9999] right-10 ">
               <img src={close} alt="" />
             </div>
           </div>
         )}
         {isOpen ? (
-          <div className=" fixed w-72 bg-white top-0 left-0 overflow-hidden items-center text-center z-10 justify-center flex flex-col transition-all ease-in-out duration-500 transform opacity-95 h-96 scale-95 mt-20 ml-8 ">
-            <div className="m-auto">
+          <div className=" fixed bg-red-300 w-full h-full top-0 left-0 overflow-hidden items-center text-center z-10 justify-center flex flex-col transition-all ease-in-out duration-500 transform opacity-95 ">
+            <div className="m-auto gap-5">
               <p>
                 <a href="">Product</a>
               </p>
